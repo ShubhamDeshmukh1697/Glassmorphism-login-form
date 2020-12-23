@@ -1,0 +1,68 @@
+body{
+    background: url('Walter\ White\ \ \ Breaking\ Bad\ Wallpaper\ 1756.jpg');
+}
+.container{
+    width: 400px;
+    height: 450px;
+    background: rgba(255, 255, 255, 0.25);
+    box-shadow: 0 8px 32px rgba(31, 38, 135, 0.37);
+    backdrop-filter: blur(0.3px);
+    -webkit-backdrop-filter: blur(0.3px);
+    border-radius: 10px;
+    border:1px solid rgba(255, 255, 255, 0.18);
+    margin: 80px auto;
+}
+h2{
+    text-align: center;
+    text-transform: uppercase;
+    color: white;
+}
+form{
+    margin: 30px;
+}
+label{
+    display: block;
+    color: white;
+    margin-top: 10px;
+}
+input{
+    display: block;
+    width: 80%;
+    background: transparent;
+    border: none;
+    outline: none;
+    border-bottom: 1px solid white;
+    padding: 10px;
+    color: white;
+}
+::placeholder{
+    color: white;
+    opacity: 0.4;
+
+}
+button{
+    width: 90%;
+    margin-top: 10px;
+    padding: 8px;
+    border: none;
+    outline: none;
+    background: blueviolet;
+    color: white;
+    font-size: 15px;
+    cursor: pointer;
+    transition: 0.2s;
+    border-radius: 5px;
+}
+button:hover{
+    background:black;
+}
+a{
+    margin-left: 30%;
+    text-decoration: none;
+    color: white;
+}
+button span{
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+}
